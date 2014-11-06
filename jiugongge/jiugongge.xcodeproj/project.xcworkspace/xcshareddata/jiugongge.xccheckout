@@ -10,29 +10,29 @@
 	<string>jiugongge</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>DEB5034A-4945-429A-A1FC-28546C8F8D2B</key>
+		<key>FB5D18CE1C49D3F97CA1C68B2F95259E728EEFA3</key>
 		<string>https://github.com/DouBiStudio/doubi.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>jiugongge/jiugongge.xcodeproj/project.xcworkspace</string>
+	<string>jiugongge/jiugongge.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>DEB5034A-4945-429A-A1FC-28546C8F8D2B</key>
+		<key>FB5D18CE1C49D3F97CA1C68B2F95259E728EEFA3</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/DouBiStudio/doubi.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DEB5034A-4945-429A-A1FC-28546C8F8D2B</string>
+	<string>FB5D18CE1C49D3F97CA1C68B2F95259E728EEFA3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>DEB5034A-4945-429A-A1FC-28546C8F8D2B</string>
+			<string>FB5D18CE1C49D3F97CA1C68B2F95259E728EEFA3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>doubi</string>
 		</dict>

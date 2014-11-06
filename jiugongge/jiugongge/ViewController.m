@@ -138,9 +138,6 @@ int flag=0;
     }
     //点击后的按钮取消过用户响应
     sender.userInteractionEnabled=NO;
-    
-
-    
 }
 
 
