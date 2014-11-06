@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F94FFDF18B4442C002CD9B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F94FFDE18B4442C002CD9B2 /* UIKit.framework */; };
+		0F94FFE118B4442C002CD9B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F94FFE018B4442C002CD9B2 /* Foundation.framework */; };
+		0F94FFE318B4442C002CD9B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F94FFE218B4442C002CD9B2 /* CoreGraphics.framework */; };
+		0F94FFE918B4442C002CD9B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F94FFE718B4442C002CD9B2 /* InfoPlist.strings */; };
+		0F94FFEB18B4442C002CD9B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F94FFEA18B4442C002CD9B2 /* main.m */; };
+		0F94FFEF18B4442C002CD9B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F94FFEE18B4442C002CD9B2 /* AppDelegate.m */; };
+		0F94FFF118B4442D002CD9B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F94FFF018B4442D002CD9B2 /* Default.png */; };
+		0F94FFF318B4442D002CD9B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F94FFF218B4442D002CD9B2 /* Default@2x.png */; };
+		0F94FFF518B4442D002CD9B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F94FFF418B4442D002CD9B2 /* Default-568h@2x.png */; };
+		0F94FFF818B4442D002CD9B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F94FFF718B4442D002CD9B2 /* ViewController.m */; };
+		0F94FFFB18B4442D002CD9B2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F94FFF918B4442D002CD9B2 /* ViewController.xib */; };
+		50A3B8D11A00D01000516368 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A3B8CE1A00D01000516368 /* Icon-60@2x.png */; };
+		50A3B8D21A00D01000516368 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A3B8CF1A00D01000516368 /* Icon.png */; };
+		50A3B8D31A00D01000516368 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A3B8D01A00D01000516368 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F94FFDB18B4442C002CD9B2 /* jiugongge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jiugongge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F94FFDE18B4442C002CD9B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F94FFE018B4442C002CD9B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F94FFE218B4442C002CD9B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F94FFE618B4442C002CD9B2 /* jiugongge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jiugongge-Info.plist"; sourceTree = "<group>"; };
+		0F94FFE818B4442C002CD9B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F94FFEA18B4442C002CD9B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F94FFEC18B4442C002CD9B2 /* jiugongge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jiugongge-Prefix.pch"; sourceTree = "<group>"; };
+		0F94FFED18B4442C002CD9B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F94FFEE18B4442C002CD9B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F94FFF018B4442D002CD9B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F94FFF218B4442D002CD9B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F94FFF418B4442D002CD9B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F94FFF618B4442D002CD9B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F94FFF718B4442D002CD9B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F94FFFA18B4442D002CD9B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		50A3B8CE1A00D01000516368 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		50A3B8CF1A00D01000516368 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		50A3B8D01A00D01000516368 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F94FFD818B4442C002CD9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F94FFDF18B4442C002CD9B2 /* UIKit.framework in Frameworks */,
+				0F94FFE118B4442C002CD9B2 /* Foundation.framework in Frameworks */,
+				0F94FFE318B4442C002CD9B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F94FFD218B4442C002CD9B2 = {
+			isa = PBXGroup;
+			children = (
+				0F94FFE418B4442C002CD9B2 /* jiugongge */,
+				0F94FFDD18B4442C002CD9B2 /* Frameworks */,
+				0F94FFDC18B4442C002CD9B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F94FFDC18B4442C002CD9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F94FFDB18B4442C002CD9B2 /* jiugongge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F94FFDD18B4442C002CD9B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F94FFDE18B4442C002CD9B2 /* UIKit.framework */,
+				0F94FFE018B4442C002CD9B2 /* Foundation.framework */,
+				0F94FFE218B4442C002CD9B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F94FFE418B4442C002CD9B2 /* jiugongge */ = {
+			isa = PBXGroup;
+			children = (
+				0F94FFED18B4442C002CD9B2 /* AppDelegate.h */,
+				0F94FFEE18B4442C002CD9B2 /* AppDelegate.m */,
+				0F94FFF618B4442D002CD9B2 /* ViewController.h */,
+				0F94FFF718B4442D002CD9B2 /* ViewController.m */,
+				0F94FFF918B4442D002CD9B2 /* ViewController.xib */,
+				0F94FFE518B4442C002CD9B2 /* Supporting Files */,
+			);
+			path = jiugongge;
+			sourceTree = "<group>";
+		};
+		0F94FFE518B4442C002CD9B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50A3B8CE1A00D01000516368 /* Icon-60@2x.png */,
+				50A3B8CF1A00D01000516368 /* Icon.png */,
+				50A3B8D01A00D01000516368 /* Icon@2x.png */,
+				0F94FFE618B4442C002CD9B2 /* jiugongge-Info.plist */,
+				0F94FFE718B4442C002CD9B2 /* InfoPlist.strings */,
+				0F94FFEA18B4442C002CD9B2 /* main.m */,
+				0F94FFEC18B4442C002CD9B2 /* jiugongge-Prefix.pch */,
+				0F94FFF018B4442D002CD9B2 /* Default.png */,
+				0F94FFF218B4442D002CD9B2 /* Default@2x.png */,
+				0F94FFF418B4442D002CD9B2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F94FFDA18B4442C002CD9B2 /* jiugongge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F94FFFE18B4442D002CD9B2 /* Build configuration list for PBXNativeTarget "jiugongge" */;
+			buildPhases = (
+				0F94FFD718B4442C002CD9B2 /* Sources */,
+				0F94FFD818B4442C002CD9B2 /* Frameworks */,
+				0F94FFD918B4442C002CD9B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jiugongge;
+			productName = jiugongge;
+			productReference = 0F94FFDB18B4442C002CD9B2 /* jiugongge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F94FFD318B4442C002CD9B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ibokan;
+			};
+			buildConfigurationList = 0F94FFD618B4442C002CD9B2 /* Build configuration list for PBXProject "jiugongge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F94FFD218B4442C002CD9B2;
+			productRefGroup = 0F94FFDC18B4442C002CD9B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F94FFDA18B4442C002CD9B2 /* jiugongge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F94FFD918B4442C002CD9B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F94FFE918B4442C002CD9B2 /* InfoPlist.strings in Resources */,
+				50A3B8D31A00D01000516368 /* Icon@2x.png in Resources */,
+				0F94FFF118B4442D002CD9B2 /* Default.png in Resources */,
+				0F94FFF318B4442D002CD9B2 /* Default@2x.png in Resources */,
+				0F94FFF518B4442D002CD9B2 /* Default-568h@2x.png in Resources */,
+				0F94FFFB18B4442D002CD9B2 /* ViewController.xib in Resources */,
+				50A3B8D21A00D01000516368 /* Icon.png in Resources */,
+				50A3B8D11A00D01000516368 /* Icon-60@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F94FFD718B4442C002CD9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F94FFEB18B4442C002CD9B2 /* main.m in Sources */,
+				0F94FFEF18B4442C002CD9B2 /* AppDelegate.m in Sources */,
+				0F94FFF818B4442D002CD9B2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F94FFE718B4442C002CD9B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F94FFE818B4442C002CD9B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F94FFF918B4442D002CD9B2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F94FFFA18B4442D002CD9B2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F94000018B4442D002CD9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XIAMEN PARAMI NETWORK TECHNOLOGY CO.,LTD. (MFF3D5FDR4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jiugongge/jiugongge-Prefix.pch";
+				INFOPLIST_FILE = "jiugongge/jiugongge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "95B21DB0-6FA6-4BF7-944F-38F5876219B3";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0F94FFFC18B4442D002CD9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F94FFFD18B4442D002CD9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F94FFFF18B4442D002CD9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XIAMEN PARAMI NETWORK TECHNOLOGY CO.,LTD. (MFF3D5FDR4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jiugongge/jiugongge-Prefix.pch";
+				INFOPLIST_FILE = "jiugongge/jiugongge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "95B21DB0-6FA6-4BF7-944F-38F5876219B3";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F94FFD618B4442C002CD9B2 /* Build configuration list for PBXProject "jiugongge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F94FFFC18B4442D002CD9B2 /* Debug */,
+				0F94FFFD18B4442D002CD9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F94FFFE18B4442D002CD9B2 /* Build configuration list for PBXNativeTarget "jiugongge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F94FFFF18B4442D002CD9B2 /* Debug */,
+				0F94000018B4442D002CD9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F94FFD318B4442C002CD9B2 /* Project object */;
+}
